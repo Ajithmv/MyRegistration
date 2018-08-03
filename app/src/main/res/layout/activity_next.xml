@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NextActivity">
+
+    <TextView
+        android:id="@+id/etUsername"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Username" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="178dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/etUsername"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="186dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/etPhno"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="186dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/etEml"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="186dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/etPswrd"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/etPhno"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/etPswrd"
+        android:layout_marginTop="171dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Phone Number" />
+
+    <TextView
+        android:id="@+id/etEml"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etUsername"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email" />
+
+    <TextView
+        android:id="@+id/etPswrd"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="168dp"
+        android:layout_marginStart="14dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password" />
+
+</RelativeLayout>
